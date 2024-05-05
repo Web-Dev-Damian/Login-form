@@ -1,0 +1,138 @@
+*{
+    font-family: roboto;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(152deg, rgba(121,9,120,1) 27%, rgba(76,0,255,1) 100%);
+}
+.main,.second{
+    width: 45%;
+    height: 70%;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.37);
+    background-color: white;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: left;
+}
+p{
+    width: 80%;
+    margin: 10px 0;
+}
+.logo{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+.hello{
+    font-size: 40px;
+    color: blueviolet;
+    line-height: 35px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+input[type="email"],input[type="password"]{
+    width: 100%;
+    height: 35px;
+    margin: 2px;
+    padding: 0px 5px;
+    border:1px solid rgb(153, 153, 153);
+    border-radius: 3px;
+    outline: none;
+}
+input:focus{
+    border-left:4px solid rgb(255, 11, 161);
+}
+.sub{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4px;
+}
+.sub a{
+    font-size: 13px;
+}
+.butoane{
+    width: 100%;
+    margin:10px 0 30px 0;
+}
+.login{
+    background: rgb(255, 11, 161);
+    padding: 6px 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(255, 11, 161);
+    color: white;
+    font-weight: bold;  
+    transition: background-color 0.15s,color 0.15s;
+}
+.login:hover{
+    color: rgb(255, 11, 161);
+    background-color: white;  
+}
+.singup{
+    background: rgb(255, 255, 255);
+    padding: 6px 30px;
+    border-radius: 2px;
+    border: 2px solid rgb(255, 11, 161);
+    color: rgb(255, 11, 161);
+    font-weight: bold;  
+    transition: color 0.15s,border 0.15s;
+}
+.singup:hover{
+    color: rgb(114, 0, 70);
+    border:2px solid rgb(114, 0, 70);
+}
+.media{
+    display: flex;
+    width: 80%;
+    height: 20%;
+    justify-content: flex-start;
+    align-items: flex-end;
+    column-gap: 15px;
+}
+.media p{
+    width: auto;
+    padding: 0 0 2px 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+.media ion-icon{
+    color: rgb(80, 80, 80);
+}
+
+
+.second{
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.second img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
